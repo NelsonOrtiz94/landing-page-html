@@ -1,0 +1,19 @@
+/*arreglar la muñeca*/
+body::before{
+    display: block;
+    content:'';
+    height:56px;
+}
+
+/*Breakpoint para reducir el tamaño del input*/
+@media(min-width: 992px){
+    .noticias-input{
+        width:50%;
+    }
+}
+/*Mapas*/
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
